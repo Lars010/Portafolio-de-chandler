@@ -1,0 +1,90 @@
+.projects {
+    margin-block-start: 8rem;
+}
+
+.projects span {
+    font: var(--caption);
+    color: var(--secondary);
+}
+
+.projects h1 {
+    font: var(--headline1);
+    color: #172326;
+    margin-block-start: 0;
+    margin-block-end: 1rem;
+}
+
+.projects p {
+    font: var(--headline4-regular);
+    color: var(--secondary);
+    margin-block-start: 0;
+    margin-block-end: 2.5rem;
+}
+
+ .buttons {
+  margin-block-end: 8rem;
+}
+
+.project-button {
+    inline-size: 9.56rem;
+    block-size: 3.18rem;
+    font: var(--button);
+    color: var(--white);
+    background: var(--primary);
+    border-radius: 4px;
+}
+
+.code-button {
+    inline-size: 8.62rem;
+    block-size: 3.18rem;
+    font: var(--button);
+    border-radius: 4px;
+    background: var(--white);
+    color: var(--primary);
+    border: 1px solid #0000FF;
+    margin-inline-start: .875rem;
+}
+
+/*projecto2.html  code abajo  */
+
+
+.niko-imagen {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 3rem;
+    margin-block-end: 1rem;
+}
+
+@media screen and (max-width: 414px) {
+.projects {
+    text-align: center;
+}
+
+.projects h1 {
+    font: var(--headline3);
+}
+
+.buttons {
+    /* display: block; */
+    border: 1px solid red;
+    text-align: center;
+}
+
+.project-button {
+    inline-size: 20.25rem;
+    margin-block-end: 1rem;
+}
+
+.code-button {
+    display: block;
+    inline-size: 20.25rem;
+}
+
+.niko-imagen img {
+    inline-size: 16.81rem;
+}
+
+.imagen-2 {
+    margin-block-start: 1rem;
+}
+}

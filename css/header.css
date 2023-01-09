@@ -1,0 +1,105 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger,
+.cerrar {
+    display: none;
+}
+
+.header p {
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: var(--secondary);
+    font-style: italic;
+}
+
+.nav {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    font: var(--caption);
+    /* border: 1px solid red;     */
+}
+
+.menucito {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+@media screen and (max-width: 414px) {
+    .header p {
+        font-size: 16px;
+    }
+
+    .header {
+        margin-block-end: 4rem;
+        display: flex;
+        justify-content: space-between;
+        inline-size: 21.25rem;
+        /* border: 1px solid red; */
+    }
+
+    .nav {
+        display: block;
+        /* border: 1px solid red; */
+        position: fixed;
+        top: 100px;
+        left: 0px;
+        padding-inline-start: 20px;
+        width: 390px;
+        height: 100%;
+        background: #fff;
+        display: none;
+    }
+
+    .menucito {
+        display: block;
+        inline-size: 6.31rem;
+        block-size: 9.5rem;
+    }
+
+    .about {
+
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 40px;
+        color: var(--primary);
+    }
+
+    .proyectos {
+        display: block;
+        color: var(--primary);
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 40px;
+    }
+
+    .contacto {
+        color: var(--primary);
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 40px;
+    }
+
+    .hamburger {
+        /* position: absolute; */
+        top: 20px;
+        left: 20px;
+        z-index: 1;
+        display: block;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Neuton:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Niko Store</title>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="cabecera">
+            <div class="header">
+                <p>Chandler Bing</p>
+                <img class="hamburger" src="./icons/icon-menu.svg" alt="menu">
+                <img class="cerrar" src="./icons/multiply.svg" alt="cerrar">
+            </div>
+            <div class="nav">
+              <div class="menucito">
+                <a class="about" href="#">ACERCA DE</a>
+                <a class="proyectos" href="./index.html">PROYECTOS</a>
+                <a class="contacto" href="#">CONTACTO</a>
+              </div>
+            </div>
+        </div>
+        <div class="hero-2">
+            <h1>Encuentra lo mejor de Niko, con productos nuevos cada semana.</h1>
+            <p>Niko es una de las marcas y proveedores de equipamiento deportivo más reconocidas y valiosas en todo el
+                mundo.</p>
+        </div>
+        <div class="project-description">
+            <span>PROYECTO</span>
+            <p>Sitio web para Niko</p>
+        </div>
+        <div class="contributions">
+            <span>MIS CONTRIBUCIONES</span>
+            <p>Frontend</p>
+        </div>
+        <div class="niko-imagen">
+            <img src="./images/1-Niko.png" alt="Niko-imagen-1">
+        </div>
+        <div class="hero-2">
+            <p>Este proyecto es dedicado a crear la interfaz de la pagina oficial de Niko, donde tenemos uno de los
+                calzados más emblemáticos en la historia de los sneakers, AIR FORCE 1. Conoce cada uno de los
+                componentes y dale vida a tu página. ¡Just do it!</p>
+        </div>
+        <div class="niko-imagen imagen-2">
+            <img src="./images/2-Niko.png" alt="Niko-checkout">
+        </div>
+        <div class="footer">
+            <span class="contacto">CONTACTO</span>
+            <div class="redes">
+                <a href="#">Correo electronico</a>
+                <span>y</span>
+                <a href="#">Twitter</a>
+                <span>y</span>
+                <a href="#">LinkedIn</a>
+                <span>y</span>
+                <a href="#">GitHub</a>
+                <span>.</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('.nav');
+
+        hamburger.addEventListener('click', () => {
+            nav.style.display = nav.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+</body>
+
+</html>

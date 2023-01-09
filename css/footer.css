@@ -1,0 +1,27 @@
+.footer {
+    margin-block-start: 2rem;
+    margin-block-end: 5rem;
+}
+
+.footer .contacto {
+    font: var(--caption);
+}
+
+.footer a {
+    color: var(--primary);
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+@media screen and (max-width: 414px) {
+    .footer a {
+        font-family: 'Karla';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 40px;
+    }
+}

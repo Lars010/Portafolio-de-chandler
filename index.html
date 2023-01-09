@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Neuton:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Portafolio</title>
+</head>
+
+<body>
+  <div class="layout">
+    <div class="cabecera">
+      <div class="header">
+          <p>Chandler Bing</p>
+          <img class="hamburger" src="./icons/icon-menu.svg" alt="menu">
+          <img class="cerrar" src="./icons/multiply.svg" alt="cerrar">
+      </div>
+      <div class="nav">
+        <div class="menucito">
+          <a class="about" href="#">ACERCA DE</a>
+          <a class="proyectos" href="./index.html">PROYECTOS</a>
+          <a class="contacto" href="#">CONTACTO</a>
+        </div>
+      </div>
+  </div>
+    <div class="hero">
+      <p>Hola, soy <b>Chandler Bing</b>, un Frontend Developer que cree en el potencial positivo de la tecnología.
+        Utilizo mi
+        experiencia para implementar soluciones que hablen de nuestra humanidad.
+        <br> <br>
+        En mi tiempo libre, puedes encontrarme coleccionando tipografías o explorando la psicología de la interfaz de
+        usuario.
+      </p>
+      <div class="button">
+        <button>Descargar Curriculum</button>
+      </div>
+    </div>
+    <div class="projects">
+      <span>PROYECTOS</span>
+      <h1>Ayudando a los fans a encontrar héroes en MARVOL</h1>
+      <p>2018 - Sitio web - Dev</p>
+      <div class="buttons">
+        <button class="project-button">Ver proyecto</button>
+        <button class="code-button">Ver codigo</button>
+      </div>
+    </div>
+    <div class="projects">
+      <h1>Encuentra lo mejor de Niko, con productos nuevos cada semana.</h1>
+      <p>2018 - Sitio web - Dev</p>
+      <div class="buttons">
+        <a href="./project2.html">
+          <button class="project-button">Ver proyecto</button></a>
+        <button class="code-button">Ver codigo</button>
+      </div>
+    </div>
+    <div class="projects">
+      <h1>Netnet la plataformas de entretenimiento con más ranking a nivel mundial</h1>
+      <p>2020 - App - Dev</p>
+      <div class="buttons">
+        <button class="project-button">Ver proyecto</button>
+        <button class="code-button">Ver codigo</button>
+      </div>
+    </div>
+    <div class="footer">
+      <span class="contacto">CONTACTO</span>
+      <div class="redes">
+        <a href="#">Correo electronico</a>
+        <span>y</span>
+        <a href="#">Twitter</a>
+        <span>y</span>
+        <a href="#">LinkedIn</a>
+        <span>y</span>
+        <a href="#">GitHub</a>
+        <span>.</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('.nav');
+
+    hamburger.addEventListener('click', () => {
+      nav.style.display = nav.style.display === 'block' ? 'none' : 'block';
+    });
+  </script>
+</body>
+
+</html>

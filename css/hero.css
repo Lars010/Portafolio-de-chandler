@@ -1,0 +1,102 @@
+.hero {
+    inline-size: 100%;
+    /* border: 1px solid red; */
+    margin-block-start: 8rem;
+}
+
+.hero p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    color: var(--secondary);
+    margin-block-end: 1.5rem;
+}
+
+.button {
+    margin-block-end: 5rem;
+}
+
+.button button {
+    inline-size: 100%;
+    max-inline-size: 20.25rem;
+    block-size: 3.18rem;
+    font: var(--button);
+    background: var(--primary);
+    color: var(--white);
+    border-radius: 4px;
+}
+
+
+/*projecto2.html  code abajo  */
+
+.hero-2 {
+    inline-size: 100%;
+    margin-block-start: 8rem;
+
+}
+
+.hero-2 h1 {
+    font: var(--headline1);
+    color: var(--black);
+    margin-block-end: 4rem;
+}
+
+.hero-2 p {
+    margin-block-start: 0;
+    font: var(--body1-regular);
+}
+
+.project-description span {
+    font: var(--caption);
+}
+
+.project-description p {
+    font: var(--headline4-regular);
+    color: var(--primary);
+    margin-block-start: 0.25rem;
+}
+
+.contributions span {
+    font: var(--caption);
+}
+
+.contributions p {
+    font: var(--headline4-regular);
+    color: var(--primary);
+    margin-block-start: 0.25rem;
+}
+
+@media screen and (max-width: 414px) {
+    .hero p {
+        font: var(--headline4-regular);
+    }
+
+    .hero {
+        margin-block-start: 4rem;
+        text-align: center;
+    }
+
+    .hero-2 {
+        margin: 0;
+    }
+
+    .hero-2 h1 {
+        font: var(--headline3);
+        margin-block-end: 1.5rem;
+    }
+
+    .hero-2 p {
+        font: var(--body2-regular);
+        margin-block-end: 1.5rem;
+    }
+
+    .project-description p {
+        font: var(--body2-regular);
+    }
+
+    .contributions p {
+        font: var(--body2-regular);
+    }
+}
